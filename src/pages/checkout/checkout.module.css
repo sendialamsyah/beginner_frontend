@@ -1,0 +1,260 @@
+h4 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 34px;
+  color: #222222;
+}
+h6 {
+  position: absolute;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.row {
+  gap: 40px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.items {
+  margin-top: -75px;
+  width: 60%;
+}
+
+.box1 {
+  margin-top: 30px;
+  padding: 30px;
+  width: 550px;
+  height: 190px;
+  left: 150px;
+  top: 214px;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+}
+.box1 h3 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+}
+.box1 p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #222222;
+}
+
+.box1 button {
+  width: 210px;
+  height: 36px;
+  border: 1px solid #9b9b9b;
+  border-radius: 24px;
+  color: #9b9b9b;
+  font-size: 14px;
+
+}
+.box2 {
+  width: 370px;
+  height: 240px;
+  left: 920px;
+  top: 200px;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+  padding-left: 25px;
+}
+
+.box3 {
+  padding-top: 30px;
+  position: absolute;
+  width: 550px;
+  height: 126px;
+  left: 60px;
+  top: 390px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.box4 {
+  padding-top: 30px;
+  position: absolute;
+  width: 550px;
+  height: 126px;
+  left: 60px;
+  top: 525px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+  border-radius: 4px;
+}
+
+.box1 .text1 {
+  position: absolute;
+  top: 190px;
+  left: 175px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+}
+.box1 .text2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8e8e93;
+}
+.box1 .text3 {
+  position: absolute;
+  left: 580px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #db3022;
+}
+.box2 .text1 {
+  position: relative;
+  top: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.box2 .text2 {
+  position: relative;
+  top: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #9b9b9b;
+}
+.box2 .text3 {
+  position: relative;
+  left: 215px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+}
+.box2 .text4 {
+  position: relative;
+  top: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  color: #9b9b9b;
+}
+.box2 .text5 {
+  position: relative;
+  left: 210px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+}
+.box2 .text6 {
+  position: relative;
+  top: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #222222;
+}
+.box2 .text7 {
+  position: relative;
+  left: 125px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.box2 hr {
+  position: relative;
+  top: 40px;
+}
+.box2 .btn {
+  position: relative;
+  top: 40px;
+  width: 320px;
+  height: 36px;
+  border-radius: 25px;
+  background-color: #db3022;
+  color: #ffffff;
+  border: none;
+}
+
+.box3 img {
+  position: relative;
+  left: 40px;
+}
+
+.box3 .text1 {
+  position: relative;
+  bottom: 60px;
+  left: 130px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.box3 .text2 {
+  position: relative;
+  bottom: 65px;
+  left: 130px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  color: #9b9b9b;
+}
+
+.box3 .text3 {
+  position: relative;
+  left: 180px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #222222;
+}
+
+.box4 img {
+  position: relative;
+  left: 40px;
+}
+.box4 .text1 {
+  position: relative;
+  bottom: 60px;
+  left: 130px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.box4 .text2 {
+  position: relative;
+  bottom: 65px;
+  left: 130px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  color: #9b9b9b;
+}
+
+.box4 .text3 {
+  position: relative;
+  left: 215px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #222222;
+}

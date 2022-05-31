@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Metropolis";
+  src: local("Metropolis"),
+   url('./components/font/Metropolis-Regular.otf') format("truetype");
+  }
+
+body {
+  margin: 0;
+  font-family: Metropolis;
+  background: #e5e5e5;
+  /* padding-top: 43px; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+  

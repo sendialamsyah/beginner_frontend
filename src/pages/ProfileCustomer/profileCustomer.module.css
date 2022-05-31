@@ -1,0 +1,322 @@
+aside {
+    background-color: #ffffff;
+    position: absolute;
+    width: 280px;
+    height: 640px;
+    left: 0px;
+    padding-left: 60px;
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+  
+  .profile .imgProfile {
+    width: 85px;
+    height: 65px;
+    border-radius: 50%;
+  }
+  
+  .profile h4 {
+    position: relative;
+    bottom: 85px;
+    left: 100px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #222222;
+  }
+  .profile .vector {
+    position: relative;
+    bottom: 65px;
+    left: 100px;
+  }
+  .profile p {
+    position: relative;
+    bottom: 145px;
+    left: 120px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  aside .box1 {
+    position: relative;
+    bottom: 110px;
+  }
+  aside .box2 {
+    position: relative;
+    bottom: 120px;
+  }
+  aside .box3 {
+    position: relative;
+    bottom: 130px;
+  }
+  aside .box1 h3 {
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #222222;
+  }
+  aside .box2 img {
+    position: relative;
+    left: 0px;
+  }
+  aside .box2 h3 {
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  aside .box2 p {
+    position: relative;
+    /* bottom: 50px; */
+    left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  aside .box3 img {
+    padding-top: 20px;
+    position: relative;
+    left: 0px;
+  }
+  aside .box3 h3 {
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  main {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    left: 310px;
+    top: 90px;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #9b9b9b;
+    border-radius: 4px;
+  }
+  
+  main h1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+  }
+  
+  main h5 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  
+  main .box1 {
+    position: relative;
+    width: 100px;
+    height: 400px;
+    padding: 9px;
+  }
+  main .box2 {
+    position: relative;
+    right: 20px;
+    width: 330px;
+    height: 400px;
+  }
+  main .box3 {
+      position: relative;
+      right: 25px;
+    width: 190px;
+    height: 170px;
+    padding: 10px;
+    border-left: 1px solid #d4d4d4;
+  }
+  main .name {
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: right;
+    color: #9b9b9b;
+  }
+  
+  main .inputName {
+    width: 300px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    border: 1px solid #9b9b9b;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px;
+  }
+  
+  main .email {
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: right;
+    color: #9b9b9b;
+  }
+  
+  main .inputEmail {
+    width: 300px;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    border: 1px solid #9b9b9b;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px;
+  }
+  
+  main .phoneNumber {
+      position: relative;
+      bottom: 38px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: right;
+    color: #9b9b9b;
+  }
+  
+  main .inputPhoneNumber {
+    width: 300px;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    border: 1px solid #9b9b9b;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px;
+  }
+  
+  main .gender {
+      position: relative;
+      bottom: 70px;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: right;
+    color: #9b9b9b;
+  }
+  
+  main .radioMen {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 75px;
+    /* right: 300px; */
+    border: 1px solid #9b9b9b;
+  }
+  main .labelRadioMen {
+    position: relative;
+    top: 70px;
+    left: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  
+  main .radioWomen {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 75px;
+    left: 30px;
+    border: 1px solid #9b9b9b;
+  }
+  main .labelRadioWomen {
+    position: relative;
+    top: 70px;
+    left: 35px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  
+  main .birth {
+      position: relative;
+    bottom: 110px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: right;
+    color: #9b9b9b;
+  }
+  
+  main .day {
+    width: 90px;
+    height: 30px;
+    position: relative;
+    top: 120px;
+    right: 155px;
+    background: #ffffff;
+    border: 1px solid #9b9b9b;
+    border-radius: 4px;
+    color: #9b9b9b;
+  }
+  
+  main .month {
+    width: 90px;
+    height: 30px;
+    position: relative;
+    top: 90px;
+    left: 95px;
+    background: #ffffff;
+    border: 1px solid #9b9b9b;
+    border-radius: 4px;
+    color: #9b9b9b;
+  }
+  
+  main .year {
+    width: 90px;
+    height: 30px;
+    position: relative;
+    top: 90px;
+    left: 100px;
+    background: #ffffff;
+    border: 1px solid #9b9b9b;
+    border-radius: 4px;
+    color: #9b9b9b;
+  }
+  
+  main .btnSave {
+    width: 90px;
+    height: 30px;
+    position: relative;
+    top: 150px;
+    right: 180px;
+    background: #db3022;
+    border-radius: 25px;
+    color: #ffffff;
+    border: none;
+  }
+  main .imgMyProfile {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    left: 10px;
+    border-radius: 50%;
+  }
+  main .btnSelectImage {
+    width: 130px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    border: 1px solid #9b9b9b;
+    border-radius: 24px;
+    color: #9b9b9b;
+    font-size: 14px;
+  }
+  

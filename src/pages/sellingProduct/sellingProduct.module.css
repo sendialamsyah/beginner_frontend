@@ -1,0 +1,429 @@
+aside {
+    background-color: #ffffff;
+    position: absolute;
+    width: 280px;
+    height: 1770px;
+    padding-left: 60px;
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+  
+  .profile .imgProfile {
+    width: 85px;
+    height: 65px;
+    border-radius: 50%;
+  }
+  
+  .profile h4 {
+    position: relative;
+    bottom: 85px;
+    left: 100px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #222222;
+  }
+  .profile .vector {
+    position: relative;
+    bottom: 65px;
+    left: 100px;
+  }
+  .profile p {
+    position: relative;
+    bottom: 145px;
+    left: 120px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  aside .box1 {
+    position: relative;
+    bottom: 110px;
+  }
+  aside .box2 {
+    position: relative;
+    bottom: 120px;
+  }
+  aside .box3 {
+    position: relative;
+    bottom: 130px;
+  }
+  aside .box1 h3 {
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #222222;
+  }
+  aside .box2 img {
+    position: relative;
+    left: 0px;
+  }
+  aside .box2 h3 {
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  aside .box2 p {
+    position: relative;
+    /* bottom: 50px; */
+    left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  aside .box3 img {
+    padding-top: 20px;
+    position: relative;
+    left: 0px;
+  }
+  aside .box3 h3 {
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+
+  .inventory {
+    padding: 10px;
+    position: absolute;
+    left: 310px;
+    top: 90px;
+    width: 650px;
+    height: 200px;
+    background: #ffffff;
+    border-radius: 4px;
+  }
+  
+  .inventory .inventory1 {
+    position: relative;
+    bottom: 18px;
+    left: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+  }
+  
+  .inventory hr {
+    position: relative;
+    bottom: 45px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  
+  .inventory .nameOfGoods {
+    position: relative;
+    bottom: 70px;
+    left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  
+  .inventory .inputName {
+    padding: 15px;
+    position: relative;
+    bottom: 100px;
+    left: 10px;
+    width: 330px;
+    height: 45px;
+    border: 1px solid #9b9b9b;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px;
+  }
+  
+  .itemDetails {
+    padding: 20px;
+    position: absolute;
+    left: 310px;
+    top: 315px;
+    width: 650px;
+    height: 390px;
+    background: #ffffff;
+    border-radius: 4px;
+  }
+  
+  .itemDetails .itemDetails1 {
+    position: relative;
+    bottom: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+  }
+  
+  .itemDetails hr {
+    position: relative;
+    bottom: 50px;
+    margin-left: -18px;
+    margin-right: -18px;
+  }
+
+  .itemDetails .unitPrice {
+    position: relative;
+    bottom: 75px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  
+  .itemDetails .inputUnitPrice {
+    position: relative;
+    bottom: 100px;
+    padding: 15px;
+    width: 330px;
+    height: 45px;
+    border: 1px solid #9b9b9b;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px;
+  }
+  
+  .itemDetails .stock {
+    position: relative;
+    bottom: 100px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  
+  .itemDetails .inputStock {
+    position: relative;
+    bottom: 130px;
+    padding: 15px;
+    width: 330px;
+    height: 45px;
+    border: 1px solid #9b9b9b;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px;
+  }
+  .inputStock input::placeholder {
+    text-align: right;
+    font-size: 14px;
+  }
+  
+  .itemDetails .stock1 {
+    position: relative;
+    bottom: 135px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  
+  .radioNew {
+    position: relative;
+    bottom: 160px;
+    width: 18px;
+    height: 18px;
+  }
+  
+  .radioSecondhand {
+    position: relative;
+    bottom: 160px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 18px;
+    height: 18px;
+  }
+  
+  .labelNew {
+    position: relative;
+    bottom: 165px;
+    left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  
+  .labelSecondhand {
+    position: relative;
+    bottom: 165px;
+    left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  
+  .photoOfGoods {
+    position: absolute;
+    left: 310px;
+    top: 730px;
+    width: 650px;
+    height: 460px;
+    background: #ffffff;
+    border-radius: 4px;
+  }
+  .photoOfGoods1 {
+    position: relative;
+    left: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+  }
+  .photoOfGoods hr {
+    position: relative;
+    bottom: 20px;
+  }
+  .photoOfGoods .box1 {
+    position: relative;
+    bottom: 10px;
+    left: 30px;
+    padding: 40px 30px 30px 30px;
+    width: 590px;
+    height: 320px;
+    border: 1px dashed #d4d4d4;
+    border-radius: 4px;
+  }
+  
+  .photoOfGoods .box2 {
+    width: 180px;
+    height: 150px;
+  }
+  .box2 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 13px;
+  }
+  .box2 p {
+    position: relative;
+    top: 10px;
+    left: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  .photoOfGoods .box3 {
+    position: relative;
+    top: 30px;
+    width: 120px;
+    height: 120px;
+  }
+  .box3 img {
+    position: relative;
+    right: 13px;
+  }
+  .photoOfGoods .box4 {
+    position: relative;
+    top: 30px;
+    width: 120px;
+    height: 120px;
+  }
+  .box4 img {
+    position: relative;
+    right: 13px;
+  }
+  .photoOfGoods .box5 {
+    position: relative;
+    top: 30px;
+    width: 120px;
+    height: 120px;
+  }
+  .box5 img {
+    position: relative;
+    right: 13px;
+  }
+  .photoOfGoods .box6 {
+    position: relative;
+    top: 30px;
+    width: 120px;
+    height: 120px;
+  }
+  .box6 img {
+    position: relative;
+    right: 13px;
+  }
+  
+  .box1 .row {
+    column-gap: 18px;
+  }
+  
+  .box1 hr {
+    position: relative;
+    bottom: 110px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  
+  .box1 .btnUpload {
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+    width: 130px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #9b9b9b;
+    border-radius: 24px;
+    color: #9b9b9b;
+  }
+  
+  .description {
+    padding: 30px;
+    position: absolute;
+    left: 310px;
+    top: 1215px;
+    width: 650px;
+    height: 470px;
+    background: #ffffff;
+    border-radius: 4px;
+  }
+  .description1 {
+    position: relative;
+    bottom: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+  }
+  .description hr {
+    position:relative;
+    bottom: 40px;
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+  .description img {
+    padding-top: 10px;
+  }
+  .textArea {
+    position: relative;
+    bottom: 20px;
+    width: 100px;
+    height: 290px;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+  }
+  
+  .btnSell {
+    position: absolute;
+    top: 1720px;
+    left: 840px;
+    width: 120px;
+    height: 45px;
+    background: #db3022;
+    border-radius: 25px;
+    color: #ffffff;
+    border: none;
+  }
+  

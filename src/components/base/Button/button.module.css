@@ -1,0 +1,34 @@
+.btnLogin {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    width: 123px;
+    height: 48px;
+    padding: 15px;
+    margin-right: -5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid #9b9b9b;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px;
+}
+
+.btnPrimary {
+    margin-top: 15px;
+    width: 400px;
+    height: 28px;
+    background-color: #DB3022;
+    border-radius: 25px;
+    border: none;
+}
+
+.btnNav {
+    width: 80px;
+    height: 33px;
+    border-radius: 25px;
+    border: 1px solid #9B9B9B;
+    margin-left: 20px;
+    margin-top: 5px;
+}

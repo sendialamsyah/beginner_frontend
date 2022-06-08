@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom";
 import Checkbox from '../../components/base/Input/checkbox'
 import Counter from '../../components/module/Counter'
 import NavbarLogin from '../../components/module/Navbar/navbarLogin'
@@ -6,12 +7,13 @@ import './myBag.css'
 import image1 from './image/gez-xavier.png'
 import image2 from './image/kemal-alkan.png'
 const MyBag = () => {
+  const Navigate = useNavigate()
   return (
     <div>
         <NavbarLogin/>
         <div className='container'>
           <h4>My Bag</h4>
-          <div class="row row-cols-2">
+          <div className="row row-cols-2">
               <div className="col box-1" >
                   <Checkbox/>
                     <span className="text-1">
@@ -21,7 +23,7 @@ const MyBag = () => {
               <div className="col box-2">
                   <p className="text-1">Shopping summary</p>
                   <p className="text-2">Total price <span className="text-3">$ 40.0</span></p>
-                  <button className="btn">BUY</button>
+                  <button className="btn" onClick={() => Navigate("/checkout")}>BUY</button>
               </div>
             </div>
             <div className="col items">

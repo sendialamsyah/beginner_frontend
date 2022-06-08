@@ -1,13 +1,7 @@
 import React from "react";
 import Card from "../../components/module/card/Card";
-import Counter from "../../components/module/Counter";
 import Navbar from "../../components/module/Navbar/navbar";
 import styles from "./detailProduct.module.css";
-import image1 from './image/cruzrone-shoe-l6XXkk 1.png'
-import image2 from './image/cruzrone-shoe-l6XXkk 2.png'
-import image3 from './image/cruzrone-shoe-l6XXkk 3.png'
-import image4 from './image/cruzrone-shoe-l6XXkk 4.png'
-import elips from './image/Ellipse 11.png'
 
 const DetailProduct = () => {
   return (
@@ -17,52 +11,6 @@ const DetailProduct = () => {
         <h6>
           Home {">"} category {">"} T-Shirt
         </h6>
-        <div className={`row row-cols-4 ${styles.productImg}`}>
-          <div className={`col ${styles.box1}`}>
-              <img src={image1} alt="" />
-          </div>
-          <div className={`col ${styles.box2}`}>
-              <img src={image2} alt="" />
-          </div>
-          <div className={`col ${styles.box3}`}>
-          <p className={styles.text1}>Nike CruzrOne (Bright Crimson)</p>
-                <p className={styles.text2}>Nike</p>
-                <p className={styles.star}>
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>
-                    <span className="fa fa-star checked"></span>
-                    <span className={styles.rating}>(10)</span>
-                </p>
-                <p className={styles.text3}>Price</p>
-                <p className={styles.text4}>$ 20.0</p>
-                <p className={styles.text5}>Color</p>
-                <p>
-                    <img src={elips} alt="" className={styles.colorBlack}/>
-                    <img src={elips} alt="" className={styles.colorRed}/>
-                    <img src={elips} alt="" className={styles.colorBlue}/>
-                    <img src={elips} alt="" className={styles.colorGreen}/>
-                </p>
-                <p className={styles.text6}>Size</p>
-                <p>
-                <Counter/>
-                </p>
-                <p className={styles.text7}>Jumlah</p>
-                <p className={styles.counterQty}>
-                <Counter/>
-                </p>
-                <button className={styles.btnChat}>Chat</button>
-                <button className={styles.btnAddBag}>Add Bag</button>
-                <button className={styles.btnBuy}>Buy Now</button>
-          </div>
-          <div className={`col ${styles.box4}`}>
-              <img src={image3} alt="" />
-          </div>
-          <div className={`col ${styles.box5}`}>
-              <img src={image4} alt="" />
-          </div>
-        </div>
         <div className="col">
           <div className={`col ${styles.information}`}>
             <h2>Informasi Produk</h2>
@@ -106,7 +54,7 @@ const DetailProduct = () => {
                   <span className="fa fa-star checked"></span>
                 </p>
               </div>
-              <div class="col"></div>
+              <div className="col"></div>
             </div>
           </div>
         </div>

@@ -1,214 +1,65 @@
-.slide {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  .slide .box1 {
-    width: 80px;
-    height: 150px;
-  }
-  .box1 img {
-    width: 100%;
-    height: 100%;
-  }
-  .slide .box2 {
-    width: 370px;
-    height: 150px;
-  }
-  .box2 img {
-    width: 100%;
-    height: 100%;
-  }
-  .slide .box3 {
-    width: 370px;
-    height: 150px;
-  }
-  .box3 img {
-    width: 100%;
-    height: 100%;
-  }
-  .slide .box4 {
-    width: 80px;
-    height: 150px;
-  }
-  .box4 img {
-    width: 100%;
-    height: 100%;
-  }
-  figcaption {
-    margin-top: 50px;
-  }
-  h4 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 34px;
-    line-height: 34px;
-    color: #222222;
-  }
-  
-  h6 {
-    position: relative;
-    bottom: 30px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    color: #9b9b9b;
-  }
-  
-  .category .image1 {
-    width: 170px;
-    height: 190px;
-    padding-left: auto;
-    padding-right: auto;
-    padding-top: 25px;
-    text-align: center;
-    background-color: #cc0b04;
-    border-radius: 8px;
-    border: 1px solid red;
-  }
-  .image1 p {
-    position: absolute;
-    height: 30px;
-    left: 110px;;
-    top: 520px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 30px;
-    color: #ffffff;
-  }
-  .category .image2 {
-    position: absolute;
-    top: 435px;
-    left: 265px;
-    width: 170px;
-    height: 190px;
-    padding-left: auto;
-    padding-right: auto;
-    padding-top: 25px;
-    text-align: center;
-    background-color: #1C3391;
-    border-radius: 8px;
-  }
-  
-  .image2 p {
-    position: absolute;
-    height: 30px;
-    left: 40px;
-    top: 85px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 30px;
-    color: #ffffff;
-  }
-  
-  .category .image3 {
-    position: absolute;
-    top: 435px;
-    left: 460px;
-    width: 170px;
-    height: 190px;
-    padding-left: auto;
-    padding-right: auto;
-    padding-top: 35px;
-    text-align: center;
-    background-color: #F67B02;
-    border-radius: 8px;
-  }
-  
-  .image3 p {
-    position: absolute;
-    height: 30px;
-    left: 45px;
-    top: 85px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 30px;
-    color: #ffffff;
-  }
-  .category .image4 {
-    position: absolute;
-    top: 435px;
-    left: 655px;
-    width: 170px;
-    height: 190px;
-    padding-left: auto;
-    padding-right: auto;
-    padding-top: 35px;
-    text-align: center;
-    background-color: #E31F51;
-    border-radius: 8px;
-  }
-  
-  .image4 p {
-    position: absolute;
-    height: 30px;
-    left: 45px;
-    top: 85px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 30px;
-    color: #ffffff;
-  }
-  .category .image5 {
-    position: absolute;
-    top: 435px;
-    left: 850px;
-    width: 170px;
-    height: 190px;
-    padding-left: auto;
-    padding-right: auto;
-    padding-top: 50px;
-    text-align: center;
-    background-color: #57CD9E;
-    border-radius: 8px;
-  }
-  
-  .image5 p {
-    position: absolute;
-    height: 30px;
-    left: 45px;
-    top: 85px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 30px;
-    color: #ffffff;
-  }
-  
-  .new .card {
-    width: 206px;
-    height: 270px;
-  }
-  .new .card-text {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #000000;
-  }
-  
-  .new .card-price {
-    margin-top: -10px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    color: #db3022;
-  }
-  
-  .card-description {
-    margin-top: -12px;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 12px;
-    color: #9b9b9b;
-  }
-  .star {
-    margin-top: -7px;
-  }
-  .star .checked {
-    color: #ffba49;
-  }
-  
-  .star .rating {
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 8px;
-    color: #9b9b9b;
-  }
+.categoryWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.categoryCard {
+width: 150px;
+height: 150px;
+background: #FFFFFF;
+}
+.categoryName {
+font-size: 15px;
+position: relative;
+padding: 40px;
+}
+
+.container {
+  width: 966px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapperCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.card {
+  width: 150px;
+  height: 230px;
+  background: #ffffff;
+  box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+  border-radius: 8px;
+}
+.image {
+  width: 150px;
+  height: 130px;
+  border-radius: 8px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.nameProduct {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.stockProduct {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #000000;
+}
+.priceProduct {
+  position: relative;
+  bottom: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #db3022;
+}

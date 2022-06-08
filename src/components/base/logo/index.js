@@ -5,7 +5,7 @@ import logo from "./logo.png";
 const Logo = ({width, height, fontSize}) => {
   return (
     <div className={styles.logo}>
-      <img src={logo} alt="logo" srcset="" width={width} height={height} />
+      <img src={logo} alt="logo" width={width} height={height} />
       <span style={{ fontSize: fontSize }} >Blanja</span>
     </div>
   );

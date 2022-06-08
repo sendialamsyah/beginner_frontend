@@ -1,28 +1,36 @@
-import React from "react";
-import styles from './card.module.css'
-import image from './image/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png'
+import React, { useEffect, useState } from "react";
+import styles from "./card.module.css";
+import axios from "axios";
 
 const Card = () => {
+  const [product, setProduct] = useState([]);
+  useEffect(() => {
+    axios({
+      method: "GET",
+      baseURL: `${process.env.REACT_APP_API_BACKEND}v1`,
+      url: "/product",
+    })
+      .then((res) => {
+        setProduct(res.data.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
   return (
     <div className={styles.card}>
-      <img
-        src={image}
-        className={styles.cardImgTop}
-        alt="..."
-      />
-      <div className={styles.cardBody}>
-        <p className={styles.cardText}>Men's formal suit - Black & White</p>
-        <p className={styles.cardPrice}>$ 40.0</p>
-        <p className={styles.cardDescription}>Zalora Cloth</p>
-        <p className={styles.star}>
-          <span className="fa fa-star checked"></span>
-          <span className="fa fa-star checked"></span>
-          <span className="fa fa-star checked"></span>
-          <span className="fa fa-star checked"></span>
-          <span className="fa fa-star checked"></span>
-          <span className={styles.rating}>(10)</span>
-        </p>
-      </div>
+      {product.map((item) => (
+        <div className="card">
+          <img src={item.photo} className={styles.cardImgTop} alt={item.name} />
+          <div className={styles.cardBody}></div>
+          <p className={styles.cardText}>{item.name}</p>
+          <p className={styles.cardPrice}>{item.price}</p>
+          <p className={styles.cardDescription}>Zalora Cloth</p>
+          <p className={styles.star}>
+            <span className={styles.rating}>(10)</span>
+          </p>
+        </div>
+      ))}
     </div>
   );
 };

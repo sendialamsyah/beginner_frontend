@@ -63,7 +63,7 @@ const LoginCustomer = () => {
             onChange={handleChange}
           />
           <p className="forgotPassword">Forgot Password?</p>
-          <ButtonPrimary title="PRIMARY" textColor="#FFFFFF" />
+          <ButtonPrimary title="LOGIN" textColor="#FFFFFF" />
           <p className="content2">
             Don't have a Tokopedia account?
             <Link to="/registerCustomer">

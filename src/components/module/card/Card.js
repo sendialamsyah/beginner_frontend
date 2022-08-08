@@ -7,7 +7,7 @@ const Card = () => {
   useEffect(() => {
     axios({
       method: "GET",
-      baseURL: `${process.env.REACT_APP_API_BACKEND}v1`,
+      baseURL: `${process.env.REACT_APP_API_BACKEND}` ,
       url: "/product",
     })
       .then((res) => {

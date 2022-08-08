@@ -12,7 +12,9 @@ import RegisterCustomer from "../../pages/auth/Register/registerCustomer";
 import RegisterSeller from "../../pages/auth/Register/registerSeller";
 import SellingProduct from "../../pages/sellingProduct/sellingProduct";
 import RequireAuth from "../../components/base/requireAuth/requireAuth";
-import Category from "../../pages/category/Category";
+import EditProduct from '../../pages/editProduct/editProduct'
+import ProfileSeller from "../../pages/ProfileSeller/profileSeller";
+import MyProduct from "../../pages/MyProduct/myProduct";
 
 const Router = () => {
   return (
@@ -26,9 +28,7 @@ const Router = () => {
         <Route
           path="/home"
           element={
-            <RequireAuth>
               <Home />
-            </RequireAuth>
           }
         />
         <Route
@@ -40,7 +40,7 @@ const Router = () => {
           }
         />
         <Route
-          path="/detailProduct"
+          path="/detailProduct/:id"
           element={
             <RequireAuth>
               <DetailProduct />
@@ -64,6 +64,14 @@ const Router = () => {
           }
         />
         <Route
+          path="/profileSeller"
+          element={
+            <RequireAuth>
+              <ProfileSeller />
+            </RequireAuth>
+          }
+        />
+        <Route
           path="/sellingProduct"
           element={
             <RequireAuth>
@@ -72,13 +80,9 @@ const Router = () => {
           }
         />
         <Route
-          path="/category"
-          element={
-            <RequireAuth>
-              <Category />
-            </RequireAuth>
-          }
-        />
+          path="/myProduct"
+          element={<MyProduct/> } />
+        <Route path="/editProduct/:id" element={ <EditProduct/>  }/>
         <Route path="*" element={<Page404 />} />
       </Routes>
     </BrowserRouter>

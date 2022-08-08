@@ -14,16 +14,17 @@ h4 {
 }
 
 
- .box-1 {
-     padding: 10px 20px 10px 20px;
-    margin-left: -5px;
+.box-1 {
+  padding: 10px 20px 10px 20px;
+  margin-left: -5px;
   width: 550px;
   height: 40px;
   border-radius: 4px;
   background: #ffffff;
   box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
 }
- .box-2 {
+
+.box-2 {
   width: 370px;
   height: 150px;
   border-radius: 4px;
@@ -33,45 +34,37 @@ h4 {
 }
 
 .box-3 {
-    padding: 10px 20px 10px 20px;
-  position: absolute;
+  position: relative;
+  bottom: 80px;
+  right: 16px;
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px 10px 20px;
   width: 550px;
-  height: 116px;
-  left: 60px;
-  top: 215px;
+  height: 500px;
   background: #ffffff;
   box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
   border-radius: 4px;
   box-sizing: border-box;
 }
-.box-4 {
-    padding: 10px 20px 10px 20px;
-  position: absolute;
-  width: 550px;
-  left: 60px;
-  height: 116px;
-  top: 340px;
-
-  background: #ffffff;
-  box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
-  border-radius: 4px;
-}
 
 .box-1 .text-1 {
-    position: relative;
-    bottom: 26px;
-    left: 27px;
+  position: relative;
+  bottom: 26px;
+  left: 27px;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   color: #222222;
 }
+
 .box-1 .text-2 {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   color: #8e8e93;
 }
+
 .box-1 .text-3 {
   position: relative;
   left: 210px;
@@ -80,8 +73,9 @@ h4 {
   line-height: 16px;
   color: #db3022;
 }
+
 .box-2 .text-1 {
-    padding: 15px 0px 15px 0px;
+  padding: 15px 0px 15px 0px;
   /* top: 185px; */
   font-weight: 600;
   font-size: 14px;
@@ -90,24 +84,26 @@ h4 {
 }
 
 .box-2 .text-2 {
-    position: relative;
-    bottom: 10px;
+  position: relative;
+  bottom: 10px;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   color: #9b9b9b;
 }
+
 .box-2 .text-3 {
   position: relative;
-  left: 190px;
+  left: 160px;
   font-weight: 600;
   font-size: 14px;
   line-height: 18px;
   color: #222222;
 }
+
 .box-2 .btn {
   position: absolute;
-  top: 250px;
+  top: 230px;
   width: 320px;
   height: 36px;
   border-radius: 25px;
@@ -117,25 +113,26 @@ h4 {
 
 
 .box-3 img {
-  position: relative;
+  /* position: relative;
   left: 30px;
-  bottom: 10px;
+  bottom: 10px; */
+  height: 80px;
+  width: 80px;
 }
 
 .box-3 .text-1 {
   position: relative;
-    bottom: 70px;
-  left: 120px;
-  font-weight: 500;
+  top: 5px;
+  font-weight: 800;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
 }
 
 .box-3 .text-2 {
-  position: relative;
-  bottom: 80px;
-  left: 120px;
+  position: absolute;
+  top: 45px;
+  left: 135px;
   font-weight: 500;
   font-size: 12px;
   line-height: 12px;
@@ -143,46 +140,27 @@ h4 {
 }
 
 .box-3 .text-3 {
-  position: relative;
-  left: 460px;
-  bottom: 160px;
+  position: absolute;
+  top: 30px;
+  left: 440px;
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   color: #222222;
 }
 
-.box-4 img {
-    position: relative;
-    left: 30px;
-    bottom: 10px;
-  }
-  
-.box-4 .text-1 {
-    position: relative;
-    bottom: 70px;
-  left: 120px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #000000;
+.box-3 .text-4 {
+  position: absolute;
+  top: 63px;
+  left: 135px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
 }
 
-.box-4 .text-2 {
-    position: relative;
-    bottom: 80px;
-    left: 120px;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 12px;
-    color: #9b9b9b;
-}
-
-.box-4 .text-3 {
-    position: relative;
-    left: 190px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    color: #222222;
+.warpperCart {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

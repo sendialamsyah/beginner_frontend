@@ -8,7 +8,7 @@ import Logo from "../../../components/base/logo";
 import "./login.css";
 import {loginUser} from '../../../configs/redux/actions/userAction'
 
-const LoginCustomer = () => {
+const LoginSeller = () => {
   const Navigate = useNavigate();
   const dispatch = useDispatch()
   const [formLogin, setFormLogin] = useState({
@@ -50,7 +50,7 @@ const LoginCustomer = () => {
         <InputLogin type="email" name='email' id='email' value={formLogin.email} placeholder="Name" onChange={handleChange}/>
         <InputLogin type="password" name='password'id='password' value={formLogin.password} placeholder="Password" onChange={handleChange} />
         <p className="forgotPassword">Forgot Password?</p>
-        <ButtonPrimary title="PRIMARY" textColor="#FFFFFF" />
+        <ButtonPrimary title="LOGIN" textColor="#FFFFFF" />
         <p className="content2">
           Don't have a Tokopedia account?
           <Link to="/registerSeller">
@@ -63,4 +63,4 @@ const LoginCustomer = () => {
   );
 };
 
-export default LoginCustomer;
+export default LoginSeller;

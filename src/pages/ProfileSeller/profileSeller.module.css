@@ -1,0 +1,298 @@
+.imgProfile {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .imgProfile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .profile h4 {
+    position: relative;
+    bottom: 95px;
+    left: 100px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #222222;
+  }
+  
+  .profile p {
+    position: relative;
+    bottom: 95px;
+    left: 100px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: red;
+    cursor: pointer;
+  }
+  
+  
+  .box1 .bgBox1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #456BF3;
+    margin-left: 15px;
+  }
+  
+  .bgBox1 img {
+    height: 60%;
+    width: 60%;
+    margin-left: 6px;
+    /* object-fit: cover; */
+  }
+  
+  .box2 .bgBox2 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #F36F45;
+    margin-left: 15px;
+  }
+  
+  .bgBox2 img{
+    height: 60%;
+    width: 60%;
+    margin-left: 6px;
+  }
+  
+  .box3 .bgBox3 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #F3456F;
+    margin-left: 15px;
+  }
+  
+  .box3 img {
+    height: 60%;
+    width: 60%;
+    margin-left: 5px;
+    /* margin-bottom: 55px; */
+    /* object-fit: cover; */
+  }
+  
+  aside .box3 {
+    /* position: relative; */
+    bottom: 130px;
+  }
+  
+  aside .box1 h3 {
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  
+  aside .box2 img {
+    position: relative;
+    left: 0px;
+  }
+  
+  aside .box2 h3 {
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  
+  aside .box2 p {
+    position: relative;
+    /* bottom: 50px; */
+    left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  
+  aside .box3 h3 {
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+
+  main {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    left: 310px;
+    top: 90px;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #9b9b9b;
+    border-radius: 4px;
+  }
+  
+  main h1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+  }
+  
+  main h5 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+  }
+  
+  main .box1 {
+    position: relative;
+    width: 100px;
+    height: 400px;
+    padding: 9px;
+  }
+  
+  main .box2 {
+    position: relative;
+    right: 20px;
+    width: 330px;
+    height: 400px;
+  }
+  
+  main .box3 {
+    position: relative;
+    right: 25px;
+    width: 190px;
+    height: 170px;
+    padding: 10px;
+    border-left: 1px solid #d4d4d4;
+  }
+  
+  main .name {
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: right;
+    color: #9b9b9b;
+  }
+  
+  main .inputName {
+    width: 300px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    border: 1px solid #9b9b9b;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px;
+  }
+  
+  main .email {
+    padding-top: 27px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: right;
+    color: #9b9b9b;
+  }
+  
+  main .inputEmail {
+    width: 300px;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    border: 1px solid #9b9b9b;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px;
+  }
+  
+  main .phoneNumber {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: right;
+    color: #9b9b9b;
+  }
+  
+  main .inputPhoneNumber {
+    width: 300px;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    border: 1px solid #9b9b9b;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px;
+  }
+
+  
+  main .description {
+    margin-top: -10px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: right;
+    color: #9b9b9b;
+  }
+  
+  main .inputDescription {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 70px;
+    border: 1px solid #9b9b9b;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px;
+  }
+  
+  main .btnSave {
+    width: 90px;
+    height: 30px;
+    position: relative;
+    top: 100px;
+    background: #db3022;
+    border-radius: 25px;
+    color: #ffffff;
+    border: none;
+  }
+  
+  main .imgMyProfile {
+    margin-left: 15px;
+    width: 150px;
+    height: 120px;
+    position: relative;
+    /* left: 10px; */
+    border-radius: 50%;
+    overflow: hidden;
+    /* border: 1px solid red; */
+  }
+  
+  .imgMyProfile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 0px;
+  }
+  
+  main .btnSelectImage {
+    width: 130px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    border: 1px solid #9b9b9b;
+    border-radius: 24px;
+    color: #9b9b9b;
+    font-size: 14px;
+  }

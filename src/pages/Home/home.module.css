@@ -24,10 +24,12 @@
 }
 
 .wrapperCard {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 35px;
+  text-decoration: none;
 }
 
 .card {
@@ -76,4 +78,18 @@
   font-size: 14px;
   line-height: 16px;
   color: #db3022;
+}
+
+.btnPagination button {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  background: #db3022;
+  color: #fff;
+  font-weight: 800px;
+  border-radius: 5px;
+}
+
+.linkto {
+  text-decoration: none;
 }

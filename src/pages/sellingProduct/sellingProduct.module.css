@@ -502,3 +502,7 @@ aside .box3 h3 {
   color: #ffffff;
   border: none;
 }
+
+.linkto {
+  text-decoration: none;
+}

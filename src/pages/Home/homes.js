@@ -111,7 +111,7 @@ const Home = () => {
             data
               // .filter((product) => product.name.toLowerCase().includes(search))
               .map((product) => (
-                <Link to={`/detailProduct/${product.id}`}>
+                <Link to={`/detailProduct/${product.id}`} className={styles.linkto}>
                   <div className={styles.card}>
                     <div className={styles.image}>
                       <img src={product.photo} alt={product.name} />
@@ -125,7 +125,7 @@ const Home = () => {
               ))}
         </div>
         <br />
-        <div>
+        <div className={styles.btnPagination}>
           <button onClick={() => setPage({ ...page, currentPage: 1 })}>
             1
           </button>

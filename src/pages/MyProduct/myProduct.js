@@ -79,7 +79,7 @@ const MyProduct = () => {
         </div>
         <div className={`col ${styles.mainBox}`}>
           <div className={`col ${styles.box1}`}>
-            <Link to="/profileSeller">
+            <Link to="/profileSeller" className={styles.linkto}>
               <div className={styles.bgBox1}>
                 <img src={imgStore} alt="" />
               </div>
@@ -87,7 +87,7 @@ const MyProduct = () => {
             </Link>
           </div>
           <div className={`col ${styles.box2}`}>
-            <Link to="/myProduct">
+            <Link to="/myProduct" className={styles.linkto}>
               <div className={styles.bgBox2}>
                 <img src={imgProduct} alt="" />
               </div>
@@ -95,7 +95,7 @@ const MyProduct = () => {
             </Link>
           </div>
           <div className={`col ${styles.box3}`}>
-            <Link to="/sellingProduct">
+            <Link to="/sellingProduct" className={styles.linkto}>
               <div className={styles.bgBox3}>
                 <img src={imgOrder} alt="" />
               </div>
@@ -128,14 +128,14 @@ const MyProduct = () => {
               <td>{product.price}</td>
               <td>{product.stock}</td>
               <td>
-                <button onClick={()=>Navigate(`/editProduct/${product.id}`)}>edit</button>
-                <button onClick={()=>deleteProduct(product.id)}>delete</button>
+                <button onClick={()=>Navigate(`/editProduct/${product.id}`)} className={`btn btn-danger ${styles.btnAction}`}>edit</button>
+                <button onClick={()=>deleteProduct(product.id)} className='btn btn-danger'>delete</button>
                 </td>
             </tr>
           ))}
           </tbody>
         </table>
-        <div>
+        <div className={styles.btnPagination}>
           <button onClick={() => setPage({ ...page, currentPage: 1 })}>
             1
           </button>

@@ -8,7 +8,7 @@ import imgOrder from "../../assets/icon/clipboard 1.png";
 import { useEffect } from "react";
 import axios from "axios";
 import swal from "sweetalert";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const ProfileCustomer = () => {
   const Navigate = useNavigate();
@@ -16,11 +16,14 @@ const ProfileCustomer = () => {
   async function fetchData() {
     try {
       const token = localStorage.getItem("token");
-      const result = await axios.get(`${process.env.REACT_APP_API_HEROKU}/users/profile`, {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      });
+      const result = await axios.get(
+        `${process.env.REACT_APP_API_HEROKU}/users/profile`,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
       setProfile(result.data.data);
     } catch (error) {
       // console.log(error.response);
@@ -88,22 +91,28 @@ const ProfileCustomer = () => {
         </div>
         <div className={`col ${styles.mainBox}`}>
           <div className={`col ${styles.box1}`}>
-            <div className={styles.bgBox1}>
-              <img src={imgMyacc} alt="" />
-            </div>
-            <h3>My Account</h3>
+            <Link to="/profileCustomer" className={styles.linkto}>
+              <div className={styles.bgBox1}>
+                <img src={imgMyacc} alt="" />
+              </div>
+              <h3>My Account</h3>
+            </Link>
           </div>
           <div className={`col ${styles.box2}`}>
-            <div className={styles.bgBox2}>
-              <img src={imgShip} alt="" />
-            </div>
-            <h3>Shipping Address</h3>
+            <Link to="#" className={styles.linkto}>
+              <div className={styles.bgBox2}>
+                <img src={imgShip} alt="" />
+              </div>
+              <h3>Shipping Address</h3>
+            </Link>
           </div>
           <div className={`col ${styles.box3}`}>
-            <div className={styles.bgBox3}>
-              <img src={imgOrder} alt="" />
-            </div>
-            <h3>My Order</h3>
+            <Link to="/myOrder" className={styles.linkto}>
+              <div className={styles.bgBox3}>
+                <img src={imgOrder} alt="" />
+              </div>
+              <h3>My Order</h3>
+            </Link>
           </div>
         </div>
       </aside>

@@ -3,13 +3,17 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import Navbar from "../../components/module/Navbar/navbar";
 import styles from "./checkout.module.css";
+import swal from 'sweetalert'
+import { useNavigate } from "react-router-dom";
 // import image1 from "./image/gez-xavier.png";
 // import image2 from "./image/kemal-alkan.png";
 
 const Checkout = () => {
+  const Navigate = useNavigate()
   const [checkout, setCheckout] = useState("");
   // eslint-disable-next-line
   const [delivery, setDelivery] = useState(25000);
+  const [transaction, setTransaction] = useState("");
 
   async function fetchData() {
     try {
@@ -27,8 +31,41 @@ const Checkout = () => {
   useEffect(() => {
     fetchData();
   }, []);
-  console.log(checkout);
+  // console.log(checkout);
 
+  useEffect(() => {
+    if (checkout) {
+      setTransaction({ ...transaction, checkout_id : checkout[0].id });
+    }
+  }, [checkout]);
+  // console.log(checkout)
+
+  const handleTransaction = async (e) => {
+    e.preventDefault();
+
+    try {
+      const token = localStorage.getItem("token");
+      await axios.post(`${process.env.REACT_APP_API_HEROKU}/transaction`, transaction, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+
+      swal({
+        title: "Good Job",
+        text: `Transaction Success!`,
+        icon: "success",
+      });
+      Navigate("/myOrder");
+    } catch (error) {
+      console.log(error);
+      return swal({
+        title: "Transaction Failed",
+        text: "",
+        icon: "error",
+      });
+    }
+  };
   return (
     <div>
       <Navbar />
@@ -59,7 +96,7 @@ const Checkout = () => {
                 {checkout ? checkout[0].total + delivery : 0}
               </span>
             </p>
-            <button className={styles.btn}>Select Payment</button>
+            <button className={styles.btn} onClick={handleTransaction}>Select Payment</button>
           </div>
         </div>
       </div>

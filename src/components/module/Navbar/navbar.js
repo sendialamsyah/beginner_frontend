@@ -55,7 +55,7 @@ const Navbar = () => {
       <nav className="navbar bg-light navbar-default navbar-fixed-top">
         <div className="d-flex nav-flex">
           <div className="navLogo">
-            <Link to="/">
+            <Link to="/" className="linkto">
               <Logo width="25px" height="35px" fontSize="20px" />
             </Link>
           </div>

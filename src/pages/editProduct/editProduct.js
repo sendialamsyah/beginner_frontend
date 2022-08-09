@@ -137,7 +137,7 @@ const editProduct = () => {
         </div>
         <div className={`col ${styles.mainBox}`}>
           <div className={`col ${styles.box1}`}>
-            <Link to="/profileSeller">
+            <Link to="/profileSeller" className={styles.linkto}>
               <div className={styles.bgBox1}>
                 <img src={imgStore} alt="" />
               </div>
@@ -145,7 +145,7 @@ const editProduct = () => {
             </Link>
           </div>
           <div className={`col ${styles.box2}`}>
-            <Link to="/myProduct">
+            <Link to="/myProduct" className={styles.linkto}>
               <div className={styles.bgBox2}>
                 <img src={imgProduct} alt="" />
               </div>
@@ -153,7 +153,7 @@ const editProduct = () => {
             </Link>
           </div>
           <div className={`col ${styles.box3}`}>
-            <Link to="/sellingProduct">
+            <Link to="/sellingProduct" className={styles.linkto}>
               <div className={styles.bgBox3}>
                 <img src={imgOrder} alt="" />
               </div>

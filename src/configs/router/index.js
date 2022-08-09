@@ -15,6 +15,7 @@ import RequireAuth from "../../components/base/requireAuth/requireAuth";
 import EditProduct from '../../pages/editProduct/editProduct'
 import ProfileSeller from "../../pages/ProfileSeller/profileSeller";
 import MyProduct from "../../pages/MyProduct/myProduct";
+import MyOrder from "../../pages/MyOrder/myOrder";
 
 const Router = () => {
   return (
@@ -52,6 +53,14 @@ const Router = () => {
           element={
             <RequireAuth>
               <Checkout />
+            </RequireAuth>
+          }
+        />
+        <Route
+          path="/myOrder"
+          element={
+            <RequireAuth>
+              <MyOrder />
             </RequireAuth>
           }
         />

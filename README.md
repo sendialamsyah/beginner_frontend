@@ -68,7 +68,7 @@ Contributions are what make the open source community such an amazing place to b
 
 | Register Page  | Login Page |
 | ------------- | ------------- |
-| ![register](/images/register.jpg?raw=true "Landing Page") | ![login](/images/ ?raw=true "Login Page") |
+| ![register](/images/register.jpg?raw=true "Landing Page") | ![login](/images/login.jpg?raw=true "Login Page") |
 
 | Landing Page | My Bag Page |
 | ------------- | ------------- |

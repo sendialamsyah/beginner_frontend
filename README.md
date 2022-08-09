@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Related Project](#related-project)
+* [Screenshot](#screenshot)
+* [Contact](#contact)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Blanja E-Commerce is a website application where users who register as customers can purchase products, and users who register as sellers can sell, update, and delete products. This application is built using Node Js, React Js, and Redux.
+This Application use Rest API server from [Blanja API](https://tokokku-web2.herokuapp.com/)
 
-### `npm test`
+### Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Node JS](https://nodejs.org/en/docs/)
+* [Next JS](https://nextjs.org/)
+* [Redux](https://redux.js.org/)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- GETTING STARTED -->
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+This is an example of how to list things you need to use the software and how to install them.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* [nodejs](https://nodejs.org/en/download/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repo
+```sh
+git clone https://github.com/sendialamsyah/frontend_blanja.git
+```
+2. Install NPM packages
+```sh
+npm install
+```
+3. Add .env file at root folder project, and add following
+```sh
+REACT_APP_API_HEROKU=https://tokokku-web2.herokuapp.com/v1 // or use your own
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
 
-## Learn More
+<!-- CONTRIBUTING -->
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b your/branch`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/yourbranch`)
+5. Open a Pull Request
 
-### Code Splitting
+<!-- SCREENSHOT -->
+## Screenshot
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Register Page  | Login Page |
+| ------------- | ------------- |
+| ![register](/images/register.jpg?raw=true "Landing Page") | ![login](/images/ ?raw=true "Login Page") |
 
-### Analyzing the Bundle Size
+| Landing Page | My Bag Page |
+| ------------- | ------------- |
+| ![landing](/images/home.jpg?raw=true "Landing Page") | ![recipe list](/images/cart.jpg?raw=true "My Bag Page") |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+| Add Product Page | Detail Product Page |
+| ------------- | ------------- |
+| ![add recipe](/images/add.jpg?raw=true "Add Product Page") | ![detail product](/images/detail.jpg?raw=true "Detail Product Page")|
 
-### Making a Progressive Web App
+| Checkout Page | My Order |
+| ------------- | ------------- |
+| ![checkout](/images/checkout.jpg?raw=true "Checkout Page") | ![my order](/images/my_order.jpg?raw=true "My Order") |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+| Profile Page | My Product |
+| ------------- | ------------- |
+| ![profile](/images/profile_seller.jpg?raw=true "Profile Page") | ![my roduct](/images/my_product.jpg?raw=true "My Product") |
 
-### Advanced Configuration
+<!-- RELATED PROJECT -->
+## Related Project
+* [`Blanja E-commerce Demo`](https://blanja-ku.vercel.app/)
+* [`Blanja E-Commerce API`](https://tokokku-web2.herokuapp.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+<!-- CONTACT -->
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contributors names and contact info
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Sendi Alamsyah [@sendialamsyah](https://github.com/sendialamsyah)

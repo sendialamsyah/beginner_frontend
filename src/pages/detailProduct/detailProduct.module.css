@@ -16,21 +16,30 @@
  .productImg .box1 {
    width: 200px;
    height: 250px;
+   overflow: hidden;
  }
+
+ .productDetail {
+  width: 100%px;
+  height: 100%px;
+  object-fit: cover;
+}
 
  .productImg .box2 {
    right: 30px;
    position: relative;
    width: 200px;
    height: 250px;
+   overflow: hidden;
  }
 
  .productImg .box3 {
    position: relative;
-   right: 30px;
-   ;
+   top: 50px;
+   right: 0px;
    width: 400px;
    height: 500px;
+   overflow: hidden;
  }
 
  .productImg .box4 {
@@ -39,6 +48,7 @@
    top: 265px;
    width: 200px;
    height: 250px;
+   overflow: hidden;
  }
 
  .productImg .box5 {
@@ -47,6 +57,7 @@
    left: 190px;
    width: 200px;
    height: 250px;
+   overflow: hidden;
  }
 
  .box3 .text1 {
@@ -126,13 +137,13 @@
    border-radius: 20px;
  }
 
- .box2 .text6 {
+ /* .box2 .text6 {
    padding-top: 10px;
    font-weight: 500;
    font-size: 15px;
    line-height: 16px;
    color: #222222;
- }
+ } */
 
  .box3 .text7 {
    position: relative;
@@ -181,15 +192,16 @@
  }
 
  .information h2 {
+  margin-top: -200px;
    font-weight: 600;
-   font-size: 20px;
+   font-size: 25px;
    line-height: 25px;
    color: #222222;
  }
 
  .information h5 {
    font-weight: 600;
-   font-size: 15px;
+   font-size: 20px;
    line-height: 20px;
    color: #222222;
  }
@@ -197,14 +209,14 @@
  .condition h5 {
    margin-top: 50px;
    font-weight: 600;
-   font-size: 15px;
+   font-size: 20px;
    line-height: 20px;
    color: #222222;
  }
 
  .condition p {
    font-weight: 500;
-   font-size: 15px;
+   font-size: 20px;
    line-height: 20px;
    color: #db3022;
  }
@@ -212,14 +224,14 @@
  .description h2 {
    margin-top: 40px;
    font-weight: 600;
-   font-size: 15px;
+   font-size: 20px;
    line-height: 20px;
    color: #222222;
  }
 
  .description p {
    font-weight: 500;
-   font-size: 12px;
+   font-size: 20px;
    line-height: 24px;
    color: #9b9b9b;
  }
@@ -229,7 +241,7 @@
    bottom: 20px;
    margin-top: 70px;
    font-weight: 600;
-   font-size: 23px;
+   font-size: 28px;
    line-height: 28px;
    color: #222222;
  }

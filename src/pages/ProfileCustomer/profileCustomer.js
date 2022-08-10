@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "../../components/module/Navbar/navbar";
 import styles from "./profileCustomer.module.css";
-import profile1 from "../../assets/image/christian-buehner-DItYlc26zVI-unsplash 1.png";
+import profile1 from "../../assets/image/defaultprofile.png";
 import imgMyacc from "../../assets/icon/user 1.png";
 import imgShip from "../../assets/icon/map-pin (3) 1.png";
 import imgOrder from "../../assets/icon/clipboard 1.png";

@@ -11,7 +11,7 @@ const Home = () => {
 // const Navigate = useNavigate()
   const [page, setPage] = useState({
     currentPage: 1,
-    limit: 5,
+    limit: 10,
     sortby: "name",
     sort: "",
     search: ""
@@ -77,7 +77,7 @@ const Home = () => {
             </div>
           </div>
         </div> */}
-        <div className="product">
+        <div className={styles.productMain}>
           <h4>Product</h4>
           <div>
             {/* <input

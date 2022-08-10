@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect } from "react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 // import Card from "../../components/module/card/Card";
 import Counter from "../../components/module/Counter";
 import Navbar from "../../components/module/Navbar/navbar";
@@ -14,7 +14,7 @@ import swal from "sweetalert";
 const DetailProduct = () => {
   const dispatch = useDispatch();
   const params = useParams();
-
+  const Navigate = useNavigate()
   const [detailProduct, setDetailProduct] = useState({
     name: "",
     photo: "",
@@ -73,6 +73,7 @@ const DetailProduct = () => {
         text: "Add To Cart Success!",
         icon: "success",
       });
+      Navigate('/myBag')
     } catch (error) {
       console.log(error);
       swal({

@@ -142,7 +142,7 @@ const MyOrder = () => {
               ))}
           </tbody>
         </table>
-        <div className={styles.btnPagination}>
+        {/* <div className={styles.btnPagination}>
           <button onClick={() => setPage({ ...page, currentPage: 1 })}>
             1
           </button>
@@ -152,7 +152,7 @@ const MyOrder = () => {
           <button onClick={() => setPage({ ...page, currentPage: 3 })}>
             3
           </button>
-        </div>
+        </div> */}
       </main>
     </div>
   );

@@ -11,9 +11,9 @@ import { useNavigate } from "react-router-dom";
 const Checkout = () => {
   const Navigate = useNavigate()
   const [checkout, setCheckout] = useState("");
-  // eslint-disable-next-line
-  const [delivery, setDelivery] = useState(25000);
+  const [delivery, setDelivery] = useState(0);
   const [transaction, setTransaction] = useState("");
+  // const [total, setTotal] = useState(0)
 
   async function fetchData() {
     try {
@@ -33,11 +33,18 @@ const Checkout = () => {
   }, []);
   // console.log(checkout);
 
+  useEffect(()=>{
+    if (checkout) {
+      setDelivery(25000)
+    }
+  })
+
   useEffect(() => {
     if (checkout) {
-      setTransaction({ ...transaction, checkout_id : checkout[0].id });
-    }
-  }, [checkout]);
+      setTransaction({ ...transaction, checkout_id : checkout[0].id, product_id : checkout[0].product_id, total : checkout[0].total + delivery, quantity : checkout[0].quantity });
+    } 
+  },[checkout]);
+
   // console.log(checkout)
 
   const handleTransaction = async (e) => {
@@ -46,6 +53,12 @@ const Checkout = () => {
     try {
       const token = localStorage.getItem("token");
       await axios.post(`${process.env.REACT_APP_API_HEROKU}/transaction`, transaction, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+      
+      await axios.delete(`${process.env.REACT_APP_API_HEROKU}/checkout/${checkout[0].id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -74,8 +87,8 @@ const Checkout = () => {
         <h6>Shipping Address</h6>
         <div className="row row-cols-2">
           <div className={`col ${styles.box1}`}>
-            <h3> {checkout ? checkout[0].fullname : "sendi"} </h3>
-            <p>{checkout ? checkout[0].address : "address"}</p>
+            <h3> {checkout ? checkout[0].fullname : "item is empty"} </h3>
+            <p>{checkout ? checkout[0].address : ""}</p>
             <button>Choose another address</button>
           </div>
           <div className={`col ${styles.box2}`}>

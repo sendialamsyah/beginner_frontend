@@ -46,7 +46,7 @@ const Navbar = () => {
   useEffect(() => {
     fetchData();
   }, []);
-  console.log(profile);
+  // console.log(profile);
 
   const link = (profile.role === 'user') ? '/profileCustomer' : '/profileSeller'
 

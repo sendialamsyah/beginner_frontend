@@ -142,6 +142,9 @@ const MyProduct = () => {
           <button onClick={() => setPage({ ...page, currentPage: 2 })}>
             2
           </button>
+          <button onClick={() => setPage({ ...page, currentPage: 3 })}>
+            3
+          </button>
         </div>
       </main>
     </div>

@@ -115,7 +115,14 @@ const Checkout = () => {
       </div>
       <div className={`col ${styles.items}`}>
         <div className={styles.warpperCheckout}>
-          {checkout &&
+          {checkout ? 
+          <p>loading...</p>
+          :
+          checkout.length < 1 ? 
+          <div className={`col ${styles.box3}`}>
+            <p>item is empty</p>
+            </div>
+            :
             checkout.map((item, index) => (
               <div className={`col ${styles.box3}`}>
                 <img src={item.photo} alt="formal-suite" />

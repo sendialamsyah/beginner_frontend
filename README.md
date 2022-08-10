@@ -74,18 +74,17 @@ Contributions are what make the open source community such an amazing place to b
 | ------------- | ------------- |
 | ![landing](/images/home.jpg?raw=true "Landing Page") | ![recipe list](/images/cart.jpg?raw=true "My Bag Page") |
 
-| Profile Page | Detail Product Page |
+| Profile Page | My Product |
 | ------------- | ------------- |
-| ![profile](/images/profile_seller.jpg?raw=true "Profile Page") | ![detail product](/images/detail.jpg?raw=true "Detail Product Page")|
+| ![profile](/images/profile_seller.jpg?raw=true "Profile Page") | ![my product](/images/my_product.jpg?raw=true "My Product") |
 
 | Checkout Page | My Order |
 | ------------- | ------------- |
 | ![checkout](/images/checkout.jpg?raw=true "Checkout Page") | ![my order](/images/my_order.jpg?raw=true "My Order") |
 
-| Add Product Page | My Product |
+| Add Product Page | Detail Product Page |
 | ------------- | ------------- |
-| ![add recipe](/images/add.jpg?raw=true "Add Product Page") | ![my roduct](/images/my_product.jpg?raw=true "My Product") |
-
+| ![add recipe](/images/add.jpg?raw=true "Add Product Page") | ![detail product](/images/detail.jpg?raw=true "Detail Product Page")|
 
 <!-- RELATED PROJECT -->
 ## Related Project

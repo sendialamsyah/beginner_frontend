@@ -17,7 +17,7 @@ const ProfileCustomer = () => {
     try {
       const token = localStorage.getItem("token");
       const result = await axios.get(
-        `${process.env.REACT_APP_API_HEROKU}/users/profile`,
+        `${process.env.REACT_APP_API_CYCLIC}/users/profile`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -58,7 +58,7 @@ const ProfileCustomer = () => {
     formData.append("birth", birth);
     const token = localStorage.getItem("token");
     await axios
-      .put(`${process.env.REACT_APP_API_HEROKU}/users/edit-profile`, formData, {
+      .put(`${process.env.REACT_APP_API_CYCLIC}/users/edit-profile`, formData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

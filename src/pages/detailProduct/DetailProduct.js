@@ -62,7 +62,7 @@ const DetailProduct = () => {
   const handleAddToCart = async () => {
     try {
       const token = localStorage.getItem("token");
-      await axios.post(`${process.env.REACT_APP_API_HEROKU}/cart`, addToCart, {
+      await axios.post(`${process.env.REACT_APP_API_CYCLIC}/cart`, addToCart, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

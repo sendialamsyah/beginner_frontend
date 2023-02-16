@@ -23,7 +23,7 @@ const editProduct = () => {
   async function fetchData() {
     try {
       const token = localStorage.getItem("token");
-      const result = await axios.get(`${process.env.REACT_APP_API_HEROKU}/users/profile`, {
+      const result = await axios.get(`${process.env.REACT_APP_API_CYCLIC}/users/profile`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

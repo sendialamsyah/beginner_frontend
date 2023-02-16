@@ -17,7 +17,7 @@ const MyOrder = () => {
     try {
       const token = localStorage.getItem("token");
       const result = await axios.get(
-        `${process.env.REACT_APP_API_HEROKU}/users/profile`,
+        `${process.env.REACT_APP_API_CYCLIC}/users/profile`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -38,7 +38,7 @@ const MyOrder = () => {
     try {
       const token = localStorage.getItem("token");
       const result = await axios.get(
-        `${process.env.REACT_APP_API_HEROKU}/transaction`,
+        `${process.env.REACT_APP_API_CYCLIC}/transaction`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

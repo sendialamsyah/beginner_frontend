@@ -16,7 +16,7 @@ const ProfileSeller = () => {
   async function fetchData() {
     try {
       const token = localStorage.getItem("token");
-      const result = await axios.get(`${process.env.REACT_APP_API_CYCLIC}/users/profile`, {
+      const result = await axios.get(`${process.env.REACT_APP_API_RAILWAY}/users/profile`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -54,7 +54,7 @@ const ProfileSeller = () => {
     formData.append("store_description", description);
     const token = localStorage.getItem("token");
     await axios
-      .put(`${process.env.REACT_APP_API_CYCLIC}/users/edit-profile`, formData, {
+      .put(`${process.env.REACT_APP_API_RAILWAY}/users/edit-profile`, formData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

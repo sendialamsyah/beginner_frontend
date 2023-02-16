@@ -17,7 +17,7 @@
 
 
 Blanja E-Commerce is a website application where users who register as customers can purchase products, and users who register as sellers can sell, update, and delete products. This application is built using Node Js, React Js, and Redux.
-This Application use Rest API server from [Blanja API](https://gentle-bonnet-calf.cyclic.app/)
+This Application use Rest API server from [Blanja API](https://backendblanja.up.railway.app/)
 
 ### Built With
 
@@ -48,7 +48,7 @@ npm install
 ```
 3. Add .env file at root folder project, and add following
 ```sh
-REACT_APP_API_CYCLIC=https://gentle-bonnet-calf.cyclic.app/v1 // or use your own
+REACT_APP_API_RAILWAY=https://backendblanja.up.railway.app/v1 // or use your own
 
 ```
 
@@ -89,7 +89,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- RELATED PROJECT -->
 ## Related Project
 * [`Blanja E-commerce Demo`](https://blanja-ku.vercel.app/)
-* [`Blanja E-Commerce REST API`](https://gentle-bonnet-calf.cyclic.app/)
+* [`Blanja E-Commerce REST API`](https://backendblanja.up.railway.app/)
 * [`Blanja E-Commerce Backend Repository`](https://github.com/sendialamsyah/backend_blanja)
 
 

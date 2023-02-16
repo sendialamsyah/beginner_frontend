@@ -2,7 +2,7 @@ import axios from 'axios'
 // import {createBrowserHistory} from 'history'
 // const history = createBrowserHistory()
 const axiosApiInstace = axios.create({
-    baseURL: process.env.REACT_APP_API_CYCLIC
+    baseURL: process.env.REACT_APP_API_RAILWAY
 })
 axiosApiInstace.interceptors.request.use(function (config) {
     // Do something before request is sent

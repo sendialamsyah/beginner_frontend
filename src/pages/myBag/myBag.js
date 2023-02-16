@@ -19,7 +19,7 @@ const MyBag = () => {
     try {
       const token = localStorage.getItem("token");
       const result = await axios.get(
-        `${process.env.REACT_APP_API_CYCLIC}/cart`,
+        `${process.env.REACT_APP_API_RAILWAY}/cart`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -62,7 +62,7 @@ const MyBag = () => {
     try {
       const token = localStorage.getItem("token");
       await axios.post(
-        `${process.env.REACT_APP_API_CYCLIC}/checkout`,
+        `${process.env.REACT_APP_API_RAILWAY}/checkout`,
         checkout,
         {
           headers: {
@@ -71,7 +71,7 @@ const MyBag = () => {
         }
       );
       await axios.delete(
-        `${process.env.REACT_APP_API_CYCLIC}/cart/${cart[0].id}`,
+        `${process.env.REACT_APP_API_RAILWAY}/cart/${cart[0].id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

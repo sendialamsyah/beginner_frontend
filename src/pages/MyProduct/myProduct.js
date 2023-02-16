@@ -17,7 +17,7 @@ const MyProduct = () => {
   async function fetchData() {
     try {
       const token = localStorage.getItem("token");
-      const result = await axios.get(`${process.env.REACT_APP_API_CYCLIC}/users/profile`, {
+      const result = await axios.get(`${process.env.REACT_APP_API_RAILWAY}/users/profile`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -61,7 +61,7 @@ const MyProduct = () => {
     Navigate("/loginCustomer");
   };
   const deleteProduct = (id) => {
-    axios.delete(`${process.env.REACT_APP_API_CYCLIC}/product/${id}`).then(() => {
+    axios.delete(`${process.env.REACT_APP_API_RAILWAY}/product/${id}`).then(() => {
       swal("Good Job!", "Delete product", "success");
       fetchData();
     });

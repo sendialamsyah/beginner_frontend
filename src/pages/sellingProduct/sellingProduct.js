@@ -20,7 +20,7 @@ const SellingProduct = () => {
   async function fetchData() {
     try {
       const token = localStorage.getItem("token");
-      const result = await axios.get(`${process.env.REACT_APP_API_CYCLIC}/users/profile`, {
+      const result = await axios.get(`${process.env.REACT_APP_API_RAILWAY}/users/profile`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
